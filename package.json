@@ -1,0 +1,42 @@
+{
+  "name": "generator-zf2",
+  "version": "0.1",
+  "description": "A generator for Zend Framework 2",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "homepage": "https://github.com/tp21/generator-zf2",
+  "bugs": "https://github.com/tp21/generator-zf2/issues",
+  "author": {
+    "name": "Tom Power",
+    "email": "tompowersemail@gmail.com",
+    "url": "https://github.com/tom-power"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tomaslin/generator-zf2.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.13.0",
+    "chalk": "~0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.12.0"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0-rc.1"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
